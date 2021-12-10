@@ -1,43 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background-color: rgb(145, 211, 228);
+    background-color: #898989;
     height: 100vh;
+    width: 100%;
 }
 .wrapper{
     background-color: white;
-    box-shadow: 1px 2px 7px;
+    box-shadow: 1px 1px 5px;
     border-radius: 10px;
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 h1{
+    padding: 30px 0px 10px 0px;
     text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
 }
 form{
-    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    padding: 30px;
 }
-input[type=text], input[type=email], input[type=number]{
+input{
     padding: 5px;
+    background-color: #CCCCCC;
+    border: none;
+    border-radius: 10px;
+    width: 230px;
 }
-input[type=text], input[type=email], input[type=number], textarea{
-    width: 95%;
-}
-input, textarea, select{
-    margin: 7px;
-}
-.ativo{
-    display: none;
+legend{
+    padding-bottom: 5px;
 }
 fieldset{
-    margin: 5px;
+    margin: 15px;
     border: none;
 }
-.alt{
-    height: 120vh;
+input:focus{
+    outline: olive 2px solid;
+    border: none;
+}
+@media (max-width: 720px)
+@media (max-width: 560px){
+    .wrapper{
+        padding: 0px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    legend{
+        font-size: 14px;
+    }
 }
