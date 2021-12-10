@@ -54,7 +54,6 @@ input:focus{
     outline: olive 2px solid;
     border: none;
 }
-@media (max-width: 720px)
 @media (max-width: 560px){
     .wrapper{
         padding: 0px;
