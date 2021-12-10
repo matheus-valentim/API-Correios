@@ -41,7 +41,7 @@ input{
     background-color: #CCCCCC;
     border: none;
     border-radius: 10px;
-    width: 230px;
+    width: 270px;
 }
 legend{
     padding-bottom: 5px;
@@ -57,6 +57,9 @@ input:focus{
 @media (max-width: 560px){
     .wrapper{
         padding: 0px;
+    }
+    input{
+        width: 230px;
     }
     h1{
         font-size: 25px;
