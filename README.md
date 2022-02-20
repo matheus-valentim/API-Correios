@@ -2,6 +2,10 @@
 
 > esse é um projeto de conexão com a API dos correios feito para estudos.
 
+## Teste aqui!
+Clique no link abaixo está a página para ver a aplicação!<br>
+<a href="https://api-correios-b6ec5.web.app/">Clique aqui!</a>
+
 ## ☕ Usando API-correios
 
 Para usar API-correios, siga estas etapas:
