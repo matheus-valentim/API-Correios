@@ -4,7 +4,7 @@
 
 ## Teste aqui!
 Clique no link abaixo está a página para ver a aplicação!<br>
-<a href="https://api-correios-b6ec5.web.app/">Clique aqui!</a>
+<a target="_blank" href="https://api-correios-b6ec5.web.app/">Clique aqui!</a>
 
 ## ☕ Usando API-correios
 
